@@ -1,6 +1,12 @@
+import './style.css'
+
 const MyComponent = () => {
     return (
-        <div>Ho viet khanh</div>
+        <>
+            <div>Ho viet khanh</div>
+            <div className="child">child</div>
+        </>
+
     )
 }
 
