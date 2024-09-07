@@ -1,0 +1,41 @@
+.todoApp{
+    /* width: 600px; */
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid 1px; */
+}
+.todo-title{
+    font-size: 50px;
+    color: orange;
+    margin: 20px 0;
+
+}
+.todo-new{
+    display: flex;
+    width: 210px;
+    justify-content: space-between;
+}
+.todo-data{
+    width: 400px;
+    /* justify-content: space-between; */
+    margin: 50px 0;
+    padding: 15px;
+    border: dotted 1px;
+    border-radius: 5px;
+}
+button {
+    cursor: pointer;
+}
+img{
+    margin-top: 40px;
+    width: 200px;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px ;
+}
